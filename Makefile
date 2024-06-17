@@ -1,3 +1,16 @@
+##notes
+## generate ssh key: ssh-keygen -t rsa
+## print key: cat <path given>
+## add new key to git
+## clone git repo with ssh key from git: git clone <>
+## create vm: python3 -m venv ~/.DSPy
+## set source to vm: source ~/.DSPy/bin/activate
+## check source: which python
+## create Makefile, requirements.txt, test.py: touch Makefileg
+# make install, make setup, make test ...
+
+
+
 #setup:
 #	python3 -m venv ~/.LLMOps
 

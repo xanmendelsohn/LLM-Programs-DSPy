@@ -1,2 +1,4 @@
 pylist
 pytest
+dspy-ai
+openai~=0.28.1

@@ -9,11 +9,19 @@
 ## create Makefile, requirements.txt, test.py: touch Makefileg
 # make install, make setup, make test ...
 
+##jupyter
+##run: jupyter notebook
+##go to: http://localhost:8888 
+
+create-env:
+	# Create a virtual environment
+	python3 -m venv ~/.DSPy
 
 
-#setup:
-#	python3 -m venv ~/.LLMOps
-
+activate-env:
+	 # Activate the virtual environment
+	 source ~/.DSPy/bin/activate
+	
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt

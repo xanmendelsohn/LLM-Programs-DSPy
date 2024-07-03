@@ -1,14 +1,20 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# RAG with DSPy and Clarifai
 
+This project demonstrates how to build a Retrieval-Augmented Generation (RAG) system using DSPy and the Clarifai Python SDK. 
 
-Hi there! Welcome to AWS Cloud9!
+## Features
+- Utilizes Clarifai's LLM models and vector database for efficient information retrieval and text generation
+- Implements a RAG system that combines retrieval and generation capabilities
+- Uses DSPy for streamlined development of NLP tasks
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+## Setup
+1. Install required packages: clarifai, langchain, dspy-ai
+2. Configure Clarifai credentials (PAT, User ID, App ID)
+3. Ingest data into Clarifai's vector database
+4. Initialize DSPy with Clarifai LLM model
 
-Happy coding!
+## Usage
+- Define custom signatures and modules for specific NLP tasks
+- Use the RAG class to retrieve relevant context and generate answers based on user queries
+
+This project showcases the integration of Clarifai's powerful AI capabilities with DSPy's flexible programming model for building advanced NLP applications.

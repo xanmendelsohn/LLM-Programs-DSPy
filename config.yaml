@@ -1,0 +1,16 @@
+# Clarifai Configuration
+
+clarifai-vars:
+    # Model URL for the llama2-70b-chat model
+    model_url: "https://clarifai.com/meta/Llama-2/models/llama2-70b-chat"
+    
+    # Personal Access Token (PAT) for Clarifai authentication
+    pat: "c08bf0b27e15451cb21aca804c68b0ee"
+    
+    # User ID for authentication
+    user_id: "fdd724sqh18p"
+    
+    # App ID for authentication
+    app_id: "dspy-backend-app"
+    
+datafile: "data/auto-repair-manual.txt"

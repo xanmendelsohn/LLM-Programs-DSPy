@@ -1,6 +1,6 @@
 import setup_clarifai_llm
 #import setup_clarifai_llm_retriever
-import rag_naive
+import multihop 
 #import rag
 import dspy
 from doc_load_split import docs, documents
@@ -12,12 +12,12 @@ sentence = "Fuel pump is broken"
 my_question = "How to change the brake fluid"
 
 # Create a RAG (Retrieval-Augmented Generation) object
-Rag_obj = rag_naive.RAG_naive()
+multihop = multihop.MultiHop(passages_per_hop =3)
 #Rag_obj = rag.RAG()
 
 # Get the prediction from the RAG model for the given question.
 # This prediction includes both the context and the answer.
-predict_response_llama70b = Rag_obj(context = documents, question = my_question)
+predict_response_llama70b = multihop(context = documents, question = my_question)
 #predict_response_llama70b = Rag_obj(my_question)
 
 # Print the question, predicted answer, and truncated retrieved contexts.

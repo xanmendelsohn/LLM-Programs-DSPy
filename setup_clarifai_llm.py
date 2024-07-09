@@ -60,6 +60,6 @@ retriever_model = ClarifaiRM(
 
 # Configuring settings for DSPy
 dspy.settings.configure(
-    lm=llm,                      # Language model
-    rm=retriever_model           # Retriever model
+    lm=llm                      # Language model
+    # ,rm=retriever_model           # Retriever model
 )

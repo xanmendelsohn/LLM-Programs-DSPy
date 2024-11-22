@@ -1,0 +1,55 @@
+
+
+h1 {
+    font-family: gotham, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold; 
+    color:#FFD700;
+}
+
+
+h3 {
+  font-family: gotham, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold; 
+  color:#002E3C;
+}
+
+body [class*="css"] {
+  font-family: gotham, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#FFD700;     
+}
+
+div.stButton > button:first-child {
+  background-color: #FFD700;
+  color:#002E3C;
+  border: 2px solid #FFD700;
+}
+
+div.stButton > button:hover {
+  background-color: #F1EFED;
+  color:#002E3C;
+  border: 2px solid #FFD700;
+  }
+
+div[role="radiogroup"] > label > div:first-of-type {
+    background-color: #FFD700 !important;
+}
+div[role="radiogroup"] > label:hover > div:first-of-type {
+    background-color: #FFD700 !important;
+}
+div[role="radiogroup"] > label > div:first-of-type::before {
+    background-color: #002E3C !important;
+}
+
+[data-testid=stSidebar] {
+  background-color: #002E3C;
+}
+[data-testid=stSidebar] [data-testid=stMarkdownContainer] p {
+  color: #FFD700;  /* Change this to your desired font color */
+}
+[data-testid=stSidebar] [class^="st-"] {
+  color: #FFD700;  /* This targets Streamlit's custom elements */
+}

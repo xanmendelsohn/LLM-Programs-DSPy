@@ -1,0 +1,14 @@
+topic_dict= {
+    "FX_HEDGING": "Währungsabsicherung",
+    "COMMODITIES_HEDGING": "Rohstoffabsicherung",
+    "INTERST_RATE_HEDGING": "Zinsabsicherung",
+    "CREDIT": "Kredit",
+    "INSURANCE": "Versicherung",
+    "FACTORING": "Factoring",
+    "PENSIONS": "Pensionen",
+    "ESG": "ESG / CO2-Kompensation",
+    "CASH_MANAGEMENT": "Cash Management / Liquiditätsmanagement",
+    "DEPOSITS": "Einlagen",
+    "ASSET_MANAGEMENT": "Asset Management",
+    "OTHER": "Sonstige"
+}
